@@ -1,7 +1,7 @@
 # IBM-Machine-Learning
 
-Summary/Review
-Training and Test Splits
+### Summary/Review
+### Training and Test Splits
 Splitting your data into a training and a test set can help you choose a model that has better chances at generalizing and is not overfitted.
 
 The training data is used to fit the model, while the test data is used to measure error and performance. 
@@ -17,8 +17,8 @@ stratified cross validation
 Polynomial Regression
 Polynomial terms help you capture nonlinear effects of your features. 
 
-Summary/Review
-Regularization Techniques
+### Summary/Review
+### Regularization Techniques
 Three sources of error for your model are: bias, variance, and, irreducible error.
 
 Regularization is a way to achieve building simple models with relatively low error. It helps you avoid overfitting by penalizing high-valued coefficients. It reduces parameters and shrinks the model.
