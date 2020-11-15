@@ -155,7 +155,7 @@ Elastic Net, an alternative hybrid approach, introduces a new parameter α (alph
 Regularization techniques have an analytical, a geometric, and a probabilistic interpretation.
 
 
-###Classification Problems
+### Classification Problems
 The two main types of supervised learning models are:
 
 Regression models, which predict a continuous outcome
@@ -188,8 +188,6 @@ Specificity is the ratio of true negatives divided by the total number of actual
 
 The receiver operating characteristic (ROC) plots the true positive rate (sensitivity) of a model vs. its false positive rate (1-sensitivity).
 
-The area under the curve of a ROC plot is a very common method of selecting a classification methods.T
-
-he precision-recall curve measures the trade-off between precision and recall.
+The area under the curve of a ROC plot is a very common method of selecting a classification methods. The precision-recall curve measures the trade-off between precision and recall.
 
 The ROC curve generally works better for data with balanced classes, while the precision-recall curve generally works better for data with unbalanced classes.
