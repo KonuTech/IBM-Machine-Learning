@@ -17,7 +17,6 @@ stratified cross validation
 Polynomial Regression
 Polynomial terms help you capture nonlinear effects of your features. 
 
-### Summary/Review
 ### Regularization Techniques
 Three sources of error for your model are: bias, variance, and, irreducible error.
 
