@@ -191,3 +191,8 @@ The receiver operating characteristic (ROC) plots the true positive rate (sensit
 The area under the curve of a ROC plot is a very common method of selecting a classification methods. The precision-recall curve measures the trade-off between precision and recall.
 
 The ROC curve generally works better for data with balanced classes, while the precision-recall curve generally works better for data with unbalanced classes.
+
+### K Nearest Neighbor Methods for Classification
+K nearest neighbor methods are useful for classification. The elbow method is frequently used to identify a model with low K and low error rate.
+
+These methods are popular due to their easy computation and interpretability, although it might take time scoring new observations, it lacks estimators, and might not be suited for large data sets.
