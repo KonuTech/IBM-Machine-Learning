@@ -205,3 +205,7 @@ When comparing logistic regression and SVMs, one of the main differences is that
 Regularization can help SVMs generalize better with future data.
 
 By using gaussian kernels, you transform your data space vectors into a different coordinate system, and may have better chances of finding a hyperplane that classifies well your data.SVMs with RBFs Kernels are slow to train with data sets that are large or have many features.  
+
+### Decision Tree
+# Classification Error vs Entropy
+https://sebastianraschka.com/faq/docs/decisiontree-error-vs-entropy.html
