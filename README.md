@@ -238,3 +238,6 @@ subsample
 number of features.
 Stacking
 Stacking is an ensemble method that combines any type of model by combining the predicted probabilities of classes. In that sense, it is a generalized case of bagging. The two most common ways to combine the predicted probabilities in stacking are: using a majority vote or using weights for each predicted probability.  
+
+#### Unbalanced data
+https://www.svds.com/learning-imbalanced-classes/
