@@ -463,3 +463,5 @@ and finally, fit the instance on the data and then predict clusters for new data
             agg=agg.fit(X1)
 
              y_predict=agg.predict(X2)
+
+####### Machine Learning Foundation (C) 2020 IBM Corporation
