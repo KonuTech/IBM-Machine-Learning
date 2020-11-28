@@ -357,4 +357,4 @@ When the similarity of the points in the cluster are very relevan, you should us
 #### Finding the right cluster
 To find the cluster with a low entopy metric, you run a few k-means clustering models with different initial configurations, comparethe results, and determine which one of the different initializations of configurations lead to the lowest inertia or distortion.
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/[branch]/image.jpg?raw=true)
