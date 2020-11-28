@@ -464,4 +464,4 @@ and finally, fit the instance on the data and then predict clusters for new data
 
              y_predict=agg.predict(X2)
 
-####### Machine Learning Foundation (C) 2020 IBM Corporation
+# Machine Learning Foundation (C) 2020 IBM Corporation
