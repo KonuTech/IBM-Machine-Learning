@@ -364,7 +364,7 @@ Each metric has strengths and most appropriate use cases, but sometimes coosing 
 
 These are the most common distance metrics:
 
-![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/clusters_algorithms_pros_cons.jpg?raw=true)
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/DDABfJewQPSwAXyXsDD0dA_375cff5d8fb0fddf1175c3cb5b1f170a_euclidean.png?raw=true)
 
 #### Euclidean Distance
 
@@ -383,7 +383,7 @@ As high dimensionality often leads to difficulty in distinguishing distances bet
 
 This is a bit less intuitive distance metric. What we really care about the Cosine Distance is the angle between 2 points, for example, for two given points A and B:
 
-![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/DDABfJewQPSwAXyXsDD0dA_375cff5d8fb0fddf1175c3cb5b1f170a_euclidean.png?raw=true)
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/Wfx_2UBbQ5G8f9lAW9ORaA_502269a7ef5d112cbcfaa0fcb9e8716e_cosine-distance.png?raw=true)
 
 This metric gives us the cosine of the angle between the two vectors defined from the origin to two given points in a two-dimensional space. To translate this definition into higher dimensions, we take the dot product of the vectors and divide it by the norm of each point.
 
