@@ -383,7 +383,7 @@ As high dimensionality often leads to difficulty in distinguishing distances bet
 
 This is a bit less intuitive distance metric. What we really care about the Cosine Distance is the angle between 2 points, for example, for two given points A and B:
 
-![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/DDABfJewQPSwAXyXsDD0dA_375cff5d8fb0fddf1175c3cb5b1f170a_euclidean.png?raw=true)
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/Wfx_2UBbQ5G8f9lAW9ORaA_502269a7ef5d112cbcfaa0fcb9e8716e_cosine-distance.png?raw=true)
 
 This metric gives us the cosine of the angle between the two vectors defined from the origin to two given points in a two-dimensional space. To translate this definition into higher dimensions, we take the dot product of the vectors and divide it by the norm of each point.
 
@@ -403,11 +403,11 @@ This distance is useful for texts and is often used to word occurrence.
 
 Consider the following example: 
 
-![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/Wfx_2UBbQ5G8f9lAW9ORaA_502269a7ef5d112cbcfaa0fcb9e8716e_cosine-distance.png?raw=true)
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/nlCvIkffTMaQryJH35zGIg_0c93b592643e8c2c951f1e4c681a4e93_jaccard_example.jpg?raw=true)
 
 In this case, the Jaccard Distance is going to be one minus the amount of value shared. So, the intersection over that union. This intersection means, the shared values of the two sentences over the length of the total unique values between sentecnes A and B. 
 
-![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/nlCvIkffTMaQryJH35zGIg_0c93b592643e8c2c951f1e4c681a4e93_jaccard_example.jpg?raw=true)
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/hhpple5dTcOaaZXuXZ3DdQ_6994e41013707b91f05cc149407de14f_jaccard_example2.jpg?raw=true)
 
 It can be useful in cases you have text documents and you want to group similar topics together.
 
@@ -464,5 +464,5 @@ and finally, fit the instance on the data and then predict clusters for new data
              y_predict=agg.predict(X2)
              
 ![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/hhpple5dTcOaaZXuXZ3DdQ_6994e41013707b91f05cc149407de14f_jaccard_example2.jpg?raw=true)
-
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/DDABfJewQPSwAXyXsDD0dA_375cff5d8fb0fddf1175c3cb5b1f170a_euclidean.png?raw=true)
 # Machine Learning Foundation (C) 2020 IBM Corporation
