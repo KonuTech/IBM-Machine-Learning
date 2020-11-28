@@ -357,14 +357,14 @@ When the similarity of the points in the cluster are very relevan, you should us
 #### Finding the right cluster
 To find the cluster with a low entopy metric, you run a few k-means clustering models with different initial configurations, comparethe results, and determine which one of the different initializations of configurations lead to the lowest inertia or distortion.
 
-![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/clusters_algorithms_pros_cons.jpg?raw=true)
-
 ### Distance Metrics
 Clustering methods rely very heavily on our definition of distance. Our choice of Distance Metric will be extremely important when discussing our clustering algorithms and to clustering success. 
 
 Each metric has strengths and most appropriate use cases, but sometimes coosing a distance metric is also based on empirical evaluation to determine which metric works best to achieve our goals. 
 
-These are the most common distance metrics:   
+These are the most common distance metrics:
+
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/clusters_algorithms_pros_cons.jpg?raw=true)
 
 #### Euclidean Distance
 
@@ -383,8 +383,7 @@ As high dimensionality often leads to difficulty in distinguishing distances bet
 
 This is a bit less intuitive distance metric. What we really care about the Cosine Distance is the angle between 2 points, for example, for two given points A and B:
 
- 
-
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/clusters_algorithms_pros_cons.jpg?raw=true)
 
 This metric gives us the cosine of the angle between the two vectors defined from the origin to two given points in a two-dimensional space. To translate this definition into higher dimensions, we take the dot product of the vectors and divide it by the norm of each point.
 
@@ -404,11 +403,11 @@ This distance is useful for texts and is often used to word occurrence.
 
 Consider the following example: 
 
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/clusters_algorithms_pros_cons.jpg?raw=true)
 
 In this case, the Jaccard Distance is going to be one minus the amount of value shared. So, the intersection over that union. This intersection means, the shared values of the two sentences over the length of the total unique values between sentecnes A and B. 
 
-  
-
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/clusters_algorithms_pros_cons.jpg?raw=true)
 
 It can be useful in cases you have text documents and you want to group similar topics together.
 
@@ -463,5 +462,7 @@ and finally, fit the instance on the data and then predict clusters for new data
             agg=agg.fit(X1)
 
              y_predict=agg.predict(X2)
+             
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/clusters_algorithms_pros_cons.jpg?raw=true)
 
 # Machine Learning Foundation (C) 2020 IBM Corporation
