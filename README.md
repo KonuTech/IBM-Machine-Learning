@@ -59,7 +59,7 @@ The most common distribution functions are: uniform, normal, log normal, exponen
 
 A frequentist approach focuses in observing man repeats of an experiment. A bayesian approach describes parameters through probability distributions.
 
-Hypothesis Testing
+### Hypothesis Testing
 A hypothesis is a statement about a population parameter. You commonly have two hypothesis: the null hypothesis and the alternative hypothesis.
 
 A hypothesis test gives you a rule to decide for which values of the test statistic you accept the null hypothesis and for which values you reject the null hypothesis and accept he alternative hypothesis.
@@ -68,7 +68,7 @@ A type 1 error occurs when an effect is due to chance, but we find it to be sign
 
 A type 2 error occurs when we ascribe the effect to chance, but the effect is non-coincidental.
 
-Significance level and p-values
+### Significance level and p-values
 A significance level is a probability threshold below which the null hypothesis can be rejected. You must choose the significance level before computing the test statistic. It is usually .01 or .05.
 
 A p-value is the smallest significance level at which the null hypothesis would be rejected. The confidence interval contains the values of the statistic for which we accept the null hypothesis.
