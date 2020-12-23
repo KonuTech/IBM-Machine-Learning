@@ -465,7 +465,7 @@ and finally, fit the instance on the data and then predict clusters for new data
              
 ![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/clusters_algorithms_pros_cons.jpg?raw=true)
 
-# Non Negative Matrix Decomposition  
+### Non Negative Matrix Decomposition  
 Non Negative Matrix Decomposition is another way of reducing the number of dimensions. Similar to PCA, it is also a matrix decomposition method in the form V=WxH.  
 
 The main difference is that it can only be applied to matrices that have positive values as inputs, for example:  
