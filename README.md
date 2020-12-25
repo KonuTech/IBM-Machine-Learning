@@ -574,6 +574,6 @@ The vanishing gradient problem is caused due to the fact that as you have more l
 
 The right activation function depends on the application, and there are no hard and fast rules. These are the some of the most used activation functions and their most common use cases:
 
-![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/activation_functions.jpg?raw=true)
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/activation_fuctions.jpg?raw=true)
    
 # Machine Learning Foundation (C) 2020 IBM Corporation
