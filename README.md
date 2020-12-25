@@ -552,15 +552,18 @@ The basic syntax of Multi-Layer Perceptrons in scikit learn is:
 
 ### These are the main parts of MLP:
 
-Weights
-Input layer
-Hidden Layer
-Weights
-Net Input
-Activation
-Deep Learning Use Cases Summary
+* Weights
+* Input layer
+* Hidden Layer
+* Weights
+* Net Input
+* Activation
 
-Training a Neural Network
+### Deep Learning Use Cases Summary
+
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/clusters_algorithms_pros_cons.jpg?raw=true)
+
+### Training a Neural Network
 In a nutshell this is the process to train a neural network:
 
 Put in Training inputs, get the output.
@@ -571,6 +574,6 @@ The vanishing gradient problem is caused due to the fact that as you have more l
 
 The right activation function depends on the application, and there are no hard and fast rules. These are the some of the most used activation functions and their most common use cases:
 
-
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/clusters_algorithms_pros_cons.jpg?raw=true)
    
 # Machine Learning Foundation (C) 2020 IBM Corporation
