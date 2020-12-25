@@ -534,15 +534,15 @@ Pass signals on to next neurons
 You can create a complex model by layering many neurons
 The basic syntax of Multi-Layer Perceptrons in scikit learn is:
 
-   Import Scikit-Learn model
+   #### Import Scikit-Learn model
 
   from sklearn.neural_network import MLPClassifier
 
-  Specify an activation function
+  #### Specify an activation function
 
   mlp = MLPClassifier(hidden_layer_sizes=(5,2), activation= 'logistic')
 
-  Fit and predict data (similar to approach for other sklearn models)
+  #### Fit and predict data (similar to approach for other sklearn models)
 
   mlp.fit(X_train, y_train)
 
