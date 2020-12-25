@@ -561,7 +561,7 @@ The basic syntax of Multi-Layer Perceptrons in scikit learn is:
 
 ### Deep Learning Use Cases Summary
 
-![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/clusters_algorithms_pros_cons.jpg?raw=true)
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/deep_learning_use_cases_summary.jpg?raw=true)
 
 ### Training a Neural Network
 In a nutshell this is the process to train a neural network:
@@ -574,6 +574,6 @@ The vanishing gradient problem is caused due to the fact that as you have more l
 
 The right activation function depends on the application, and there are no hard and fast rules. These are the some of the most used activation functions and their most common use cases:
 
-![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/clusters_algorithms_pros_cons.jpg?raw=true)
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/activation_functions.jpg?raw=true)
    
 # Machine Learning Foundation (C) 2020 IBM Corporation
