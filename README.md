@@ -520,6 +520,57 @@ H Matrix telling us how to use those topics to reconstruct our original document
 
 and fit the instance and create a transformed version of the data:  
 
-   x_nmf=NMF.fit(X)  
+   x_nmf=NMF.fit(X)
+   
+### Introduction to Neural Networks
+Neural Networks and Deep Learning are behind most of the AI that shapes our everyday life. Think of how you interact everyday with these technologies just by using the greatest features in our phones (face-recognition, autocorrect, text-autocomplete, voicemail-to-text previews), finding what we need on the internet (predictive internet searches, content or product recommendations), or using self-driving cars. Also, some of the classification and regression problems you need to solve, are good candidates for Neural Networks and Deep Learning as well.
+
+#### Some basic facts of Neural Networks:
+
+Use biology as inspiration for mathematical models
+Get signals from previous neurons
+Generate signals according to inputs
+Pass signals on to next neurons
+You can create a complex model by layering many neurons
+The basic syntax of Multi-Layer Perceptrons in scikit learn is:
+
+   Import Scikit-Learn model
+
+  from sklearn.neural_network import MLPClassifier
+
+  Specify an activation function
+
+  mlp = MLPClassifier(hidden_layer_sizes=(5,2), activation= 'logistic')
+
+  Fit and predict data (similar to approach for other sklearn models)
+
+  mlp.fit(X_train, y_train)
+
+  mlp.predict(X_test)
+
+ 
+
+### These are the main parts of MLP:
+
+Weights
+Input layer
+Hidden Layer
+Weights
+Net Input
+Activation
+Deep Learning Use Cases Summary
+
+Training a Neural Network
+In a nutshell this is the process to train a neural network:
+
+Put in Training inputs, get the output.
+Compare output to correct answers: Look at loss function J.
+Adjust and repeat.
+Backpropagation tells us how to make a single adjustment using calculus. 
+The vanishing gradient problem is caused due to the fact that as you have more layers, the gradient gets very small at the early layers. For this reason, other activations (such as ReLU) have become more common
+
+The right activation function depends on the application, and there are no hard and fast rules. These are the some of the most used activation functions and their most common use cases:
+
+
    
 # Machine Learning Foundation (C) 2020 IBM Corporation
