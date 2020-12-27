@@ -628,25 +628,25 @@ Then add layers to the model one by one:
 
   
 
-##### Import libraries, model elements
+            ##### Import libraries, model elements
 
-from keras.models import Sequential 
+            from keras.models import Sequential 
 
-from keras.layers import Dense, Activation 
+            from keras.layers import Dense, Activation 
 
-model = Sequential()
+            model = Sequential()
 
-##### For the first layer, specify the input dimension
+            ##### For the first layer, specify the input dimension
 
-model.add(Dense(units=4, input_dim=3)) 
+            model.add(Dense(units=4, input_dim=3)) 
 
-##### Specify activation function
+            ##### Specify activation function
 
-model.add(Activation('sigmoid')) 
+            model.add(Activation('sigmoid')) 
 
-##### For subsequent layers, the input dimension is presumed from the previous layer model.add(Dense(units=4)) 
+            ##### For subsequent layers, the input dimension is presumed from the previous layer model.add(Dense(units=4)) 
 
-model.add(Activation('sigmoid'))
+            model.add(Activation('sigmoid'))
 
 
 
