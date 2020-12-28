@@ -583,6 +583,8 @@ These are some common ways to prevent overfitting and regularize neural networks
 
 * Regularization penalty in cost function - This option explicitly adds a penalty to the loss function
 
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/cost_function.jpg?raw=true)
+
 * Dropout - This is a mechanism in which at each training iteration (batch) we randomly remove a subset of neurons. This prevents a neural network from relying too much on individual pathways, making it more robust. At test time the weight of the neuron is rescaled to reflect the percentage of the time it was active.
 * Early stopping - This is another heuristic approach to regularization that refers to choosing some rules to determine if the training should stop.
      Example: 
