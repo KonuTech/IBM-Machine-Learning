@@ -451,11 +451,11 @@ The pros and cons are the same as the average linkage.
 Syntax for Agglomerative Clusters
 First, import AgglomarativeClustering
 
-From sklearn.cluster import AgglomerativeClustering
+            From sklearn.cluster import AgglomerativeClustering
 
 then create an instance of class,
 
-agg = AgglomerativeClustering (n_clusters=3, affinity=‘euclidean’, linkage=‘ward’)
+            agg = AgglomerativeClustering (n_clusters=3, affinity=‘euclidean’, linkage=‘ward’)
 
 and finally, fit the instance on the data and then predict clusters for new data
 
@@ -476,12 +476,12 @@ In the case of word and vocabulary recognition, each row in the matrix can be co
 
 NMF has proven to be powerful for:  
 
-word and vocabulary recognition  
-image processing,   
-text mining  
-transcribing  
-encoding and decoding  
-decomposition of video, music, or images  
+* word and vocabulary recognition  
+* image processing,   
+* text mining  
+* transcribing  
+* encoding and decoding  
+* decomposition of video, music, or images  
 There are advantages and disadvantages of only dealing with non negative values.  
 
 An advantage, is that NMF leads to features that tend to be more interpretable. For example, in facial recognition, the decomposed components match to something more interpretable like, for example, the nose, the eyebrows, or the mouth.  
@@ -512,15 +512,15 @@ H Matrix telling us how to use those topics to reconstruct our original document
  Syntax  
  The syntax consists of importing the class containing the clustering method:  
 
-   from sklearn.decomposition import NMF  
+               from sklearn.decomposition import NMF  
 
  creating the instance of the class:  
 
-    nmf=NMF(n_components=3, init='random')  
+                nmf=NMF(n_components=3, init='random')  
 
 and fit the instance and create a transformed version of the data:  
 
-   x_nmf=NMF.fit(X)
+               x_nmf=NMF.fit(X)
    
 ### Introduction to Neural Networks
 Neural Networks and Deep Learning are behind most of the AI that shapes our everyday life. Think of how you interact everyday with these technologies just by using the greatest features in our phones (face-recognition, autocorrect, text-autocomplete, voicemail-to-text previews), finding what we need on the internet (predictive internet searches, content or product recommendations), or using self-driving cars. Also, some of the classification and regression problems you need to solve, are good candidates for Neural Networks and Deep Learning as well.
@@ -536,17 +536,17 @@ The basic syntax of Multi-Layer Perceptrons in scikit learn is:
 
    #### Import Scikit-Learn model
 
-  from sklearn.neural_network import MLPClassifier
+              from sklearn.neural_network import MLPClassifier
 
   #### Specify an activation function
 
-  mlp = MLPClassifier(hidden_layer_sizes=(5,2), activation= 'logistic')
+              mlp = MLPClassifier(hidden_layer_sizes=(5,2), activation= 'logistic')
 
   #### Fit and predict data (similar to approach for other sklearn models)
 
-  mlp.fit(X_train, y_train)
+              mlp.fit(X_train, y_train)
 
-  mlp.predict(X_test)
+              mlp.predict(X_test)
 
  
 
@@ -628,7 +628,7 @@ Then add layers to the model one by one:
 
   
 
-            ##### Import libraries, model elements
+            # Import libraries, model elements
 
             from keras.models import Sequential 
 
@@ -636,15 +636,15 @@ Then add layers to the model one by one:
 
             model = Sequential()
 
-            ##### For the first layer, specify the input dimension
+            # For the first layer, specify the input dimension
 
             model.add(Dense(units=4, input_dim=3)) 
 
-            ##### Specify activation function
+            # Specify activation function
 
             model.add(Activation('sigmoid')) 
 
-            ##### For subsequent layers, the input dimension is presumed from the previous layer model.add(Dense(units=4)) 
+            #For subsequent layers, the input dimension is presumed from the previous layer model.add(Dense(units=4)) 
 
             model.add(Activation('sigmoid'))
 
