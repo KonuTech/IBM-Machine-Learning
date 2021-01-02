@@ -1380,11 +1380,11 @@ Although these methods use time, these methods are not generally predicting a ti
             –       The Cox Proportional Hazard (CPH) model 
 This is one of the most common survival models. It assumes features have a constant proportional impact on the hazard rate. 
 
-For a single non-time-varying feature X, the hazard rate h(t)h(t) is modeled as:
+For a single non-time-varying feature X, the hazard rate h(t) is modeled as:
 
-is the time-varying baseline hazard, and e^{\beta_1X}e 
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/hazard_rate.jpg?raw=true)
 
-  is the (constant) proportional adjustment to the baseline hazard due to X.
+β(t) is the time-varying baseline hazard, and e^(βX) is the (constant) proportional adjustment to the baseline hazard due to X.
 
 Using the CPH model, we can plot estimated survival curves for various categories. 
 
