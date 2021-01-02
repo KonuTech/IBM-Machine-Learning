@@ -1153,49 +1153,20 @@ ARMA models are often expressed using orders p and q for the AR and MA component
 For a time series variable X that we want to predict for time t, the last few observations are:
 
 
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/ARMA_models_1.jpg?raw=true)
  
 
 AR(p) models are assumed to depend on the last p values of the time series. For p=2, the forecast has the form:
 
-
-
-Here, \omega_tω 
-
-  is the forecast error;  \phi_1ϕ 
-	
-  and \phi_2ϕ 
-	
-  are the (p=2) parameters (estimated by regression).
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/ARMA_models_2.jpg?raw=true)
 
 MA(q) models are assumed to depend on the last q values of the forecast error. For q=2, the forecast has the form:
 
- 
-
-Here, \omega_tω 
-	
-  is the forecast error, \omega_{t-1}ω 
-	
-  is the previous forecast error, etc.  \theta_1θ 
-	
-  and \theta_2θ 
-	
-  are the (q=2) parameters.
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/ARMA_models_3.jpg?raw=true)
 
 Combining the AR(p) and MA(q) models yields the ARMA(p, q) model. For p=2, q=2, the ARMA(2, 2) forecast has the form:
 
-
-
-\omega_tω 
-	
-  is the forecast error, \phi_1ϕ 
-	
-  , \phi_2ϕ 
-	
-  , \theta_1θ 
-	
-  , and \theta_2θ 
-	
-  are the (p + q = 4) parameters.
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/ARMA_models_4.jpg?raw=true)
 
 #### ARMA Models Considerations
 These are important considerations to keep in mind when dealing with ARMA models:
