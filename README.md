@@ -1180,8 +1180,8 @@ There are three stages in building an ARMA model:
 
 At this stage you:
 
-Validate that the time series is stationary.
-Confirm whether the time series contains a seasonal component.
+* Validate that the time series is stationary.  
+* Confirm whether the time series contains a seasonal component.  
 You can determine if seasonality is present by using autocorrelation and partial autocorrelation plots, seasonal subseries plots, and intuition (possible in some cases, i.e. seasonal sales of consumer products, holidays, etc.).
 
 An Autocorrelation Plot is commonly used to detect dependence on prior observations. 
@@ -1202,12 +1202,13 @@ One approach here is to look at autocorrelation and partial autocorrelation plot
 
 How do we determine the order p of the AR model?
 
-Plot confidence intervals on the Partial Autocorrelation Plot.
-Choose lag p such that partial autocorrelation becomes insignificant for p + 1 and beyond
-How can we determine the order q of the MA model?
+* Plot confidence intervals on the Partial Autocorrelation Plot.  
+* Choose lag p such that partial autocorrelation becomes insignificant for p + 1 and beyond  
 
-Plot confidence intervals on the Autocorrelation Plot
-Choose lag q such that autocorrelation becomes insignificant for q + 1 and beyond.
+How can we determine the order q of the MA model?  
+
+* Plot confidence intervals on the Autocorrelation Plot  
+* Choose lag q such that autocorrelation becomes insignificant for q + 1 and beyond.  
 
 #### Evaluation
 
