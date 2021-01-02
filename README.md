@@ -1244,14 +1244,7 @@ You can assess your ARMA model by making sure that the residuals will approximat
 
 These are guidelines to choose between an AR and a MA model based on the shape of the autocorrelation and partial autocorrelation plots.
 
-SHAPE	MODEL
-Exponential Decaying to zero	AR models
-Alternating positive and negative decaying to zero	AR models
-One or more spikes, the rest are close to zero	MA model
-Decay after a few lags	Mixed AR and MA
-All zero or close to zero	Data is random
-High values at fixed intervals	Include seasonal AR term
-No decay to zero	Series is not stationary
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/evaluation_table.jpg?raw=true)
 
 #### ARIMA Models
 
