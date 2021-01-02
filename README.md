@@ -1287,7 +1287,7 @@ These are the steps to estimate p, d, q and P, D, Q?
 ### Deep Learning for Time Series Forecasting
 Neural networks offer several benefits over traditional time series forecasting models, including:
 
-* * Automatically learn how to incorporate series characteristics like trend, seasonality,  and autocorrelation into predictions.
+* Automatically learn how to incorporate series characteristics like trend, seasonality,  and autocorrelation into predictions.
 Able to capture very complex patterns.
 * Can simultaneously model many related series instead of treating each separately.
 
@@ -1352,6 +1352,7 @@ This function:
 
 The Hazard Rate is defined as: 
 
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/hazard_rate1.jpg?raw=true)
   
 It represents the instantaneous rate at which events occur, given that it has not occurred already.
 
