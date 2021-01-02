@@ -1359,6 +1359,7 @@ The cumulative hazard rate (sum of h(t)h(t) from t = 0  to t = t) represents acc
 
 The Kaplan-Meier estimator is a non-parametric estimator. It allows us to use observed data  to estimate the survival distribution. The Kaplan-Meier Curve plots the cumulative probability of survival beyond each given time period.
 
+![alt text](https://github.com/KonuTech/IBM-Machine-Learning/blob/main/survival_probability.jpg?raw=true)
 
 Using the Kaplan-Meier Curve allows us to visually inspect differences in survival rates by category. We can use Kaplan-Meier Curves to examine whether there appear to be differences based on this feature.
 
