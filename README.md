@@ -1001,9 +1001,9 @@ The sequence captures data at equally spaced points in time. Data that is not co
 #### Time Series Motivation
 For most forecasting exercises, standard regression approaches do not work for Time Series models, mostly because:
 
-The data is correlated over time
-The data is often non-stationary, which is hard to model using regressions
-You need a lot of data for a forecast
+* The data is correlated over time
+* The data is often non-stationary, which is hard to model using regressions
+* You need a lot of data for a forecast
 
 #### Forecasting Problems
 
@@ -1013,9 +1013,10 @@ These are the two types of forecasting problems. Consider that the vast majority
 
 Think of single data series containing of:
 
-Continuous data, binary data, or categorical data
-Multiple unrelated series 
-Conditional series
+* Continuous data, binary data, or categorical data
+* Multiple unrelated series 
+* Conditional series
+
 2.      Panel or Multivariate
 
 Think of multiple related series identifying groups such as customer types, department or channel, or geographic joint estimation across series
@@ -1023,15 +1024,16 @@ Think of multiple related series identifying groups such as customer types, depa
 #### Time Series Applications
 Time series data is common across many industries. For example:
 
-Finance: stock prices, asset prices, macroeconomic factors
-E-Commerce: page views, new users, searches
-Business: transactions, revenue, inventory levels 
+* Finance: stock prices, asset prices, macroeconomic factors
+* E-Commerce: page views, new users, searches
+* Business: transactions, revenue, inventory levels 
+
 Time series methods are used to:
 
-Understand the processes driving observed data
-Fit models to monitor or forecast a process
-Understand what influences future results of various series
-Anticipate events that require management intervention
+* Understand the processes driving observed data
+* Fit models to monitor or forecast a process
+* Understand what influences future results of various series
+* Anticipate events that require management intervention
 
 #### Time Series Components
 
